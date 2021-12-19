@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">BankMeister</string>
+    <string name="loginWithPin">Bejelentkezés</string>
+    <string name="pinLogin">Add meg a PIN kódot:</string>
+    <string name="loginWithNewPin">Pin kód megadása</string>
+    <string name="profile">Profil</string>
+    <string name="logOut">Kijelentkezés</string>
+    <string name="ok">Okés!</string>
+    <string name="newAccount">Új számla hozzáadása</string>
+    <string name="cancel">Okétalan!</string>
+    <string name="newTransaction">Új tranzakció felvétele</string>
+    <string name="cancelTransaction">Vissza</string>
+    <string name="commit">Mehet!</string>
+    <string name="newLimit">Új limit hozzáadása</string>
+    <string name="okLimit">Okés!</string>
+    <string name="cancelLimit">Nem okés!</string>
+    <string name="newPinProfile">Pin kód megváltoztatása</string>
+    <string name="okPinProfile">Mehet!</string>
+    <string name="cancelPinProfile">Jó a régi!</string>
+    <string name="profileUsername">Felhasználónév</string>
+    <string name="profileNewLimit">Új limit</string>
+    <string name="profileNewPin">Új PIN kód</string>
+    <string name="profileSaveName">Név mentése</string>
+    <string name="hintNewAccountNumber">Új számlaszám</string>
+    <string name="startingAmount">Kezdőösszeg</string>
+    <string name="accountNumber">Számlaszám</string>
+    <string name="value">Összeg</string>
+    <string name="setNewPin">Új PIN:</string>
+    <string name="save">Mentés!</string>
+    <string name="transactionTitle">Megnevezés</string>
+    <string name="transactionValue">Összeg</string>
+    <string name="expenseOrIncome">Kiadás, avagy bevétel?</string>
+    <string name="templateAccountNumber">00000000-00000000-00000000</string>
+    <string name="templateValue">15 000Ft</string>
+    <string name="limiTemp">limitTemp</string>
+    <string name="limitRemove">ELTÁVOLÍTÁS</string>
+    <string name="stockTemp">stockTemp</string>
+    <string name="payment">Fizetés</string>
+    <string name="transactionTemp">transactionTemp</string>
+
+    <string-array name="expense_income">
+        <item>Kiadás</item>
+        <item>Bevétel</item>
+    </string-array>
+</resources>

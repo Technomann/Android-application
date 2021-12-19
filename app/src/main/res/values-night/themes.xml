@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MobWebHF" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#30c25a</item>
+        <item name="colorPrimaryVariant">#30c25a</item>
+        <item name="colorOnPrimary">#EDEDED</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#30c25a</item>
+        <item name="colorSecondaryVariant">#30c25a</item>
+        <item name="colorOnSecondary">#EDEDED</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">#bfbfbf</item>
+        <item name="android:textColor">#EDEDED</item>
+        <item name="colorOnBackground">#454545</item>
+    </style>
+</resources>

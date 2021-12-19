@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:background="?attr/colorOnBackground"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/ivTransactionIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="2"
+        tools:src="@drawable/plus" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTransactionTitle"
+        android:text="@string/payment"
+        android:layout_marginTop="@dimen/transactionItemMarginTop"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTransactionAmount"
+        android:text="@string/transactionTemp"
+        android:layout_marginTop="@dimen/transactionItemMarginTop"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTransactionDate"
+        android:text="@string/transactionTemp"
+        android:layout_marginTop="@dimen/transactionItemMarginTop"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stockImage">40dp</dimen>
+    <dimen name="stockTextSize">15sp</dimen>
+    <dimen name="stockItemMarginTop">10dp</dimen>
+    <dimen name="transactionItemMarginTop">8dp</dimen>
+</resources>
